@@ -20,7 +20,7 @@ var server2 = http.createServer(handleRequest);
 server1.listen(7000, function() {
 
   // Log (server-side) when our server has started
-  console.log("Server 1 listening on: http://localhost:" + 7500);
+  console.log("Server 1 listening on: http://localhost:" + 7000);
 });
 
 server2.listen(7500, function() {
